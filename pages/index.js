@@ -73,7 +73,7 @@ export default function Home() {
         className={classes.container}
       >
         <Stack>
-          <Title className={classes.title}>Hi, I&#39m Anas Deyra</Title>
+          <Title className={classes.title}>Hi, I&#39;m Anas Deyra</Title>
           <Text weight={"500"} size="xl">
             A full stack <span className={"highlight"}>web developer</span> &
             UI/UX designer that will make your business go to the moon.
