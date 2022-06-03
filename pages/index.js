@@ -73,7 +73,7 @@ export default function Home() {
         className={classes.container}
       >
         <Stack>
-          <Title className={classes.title}>Hi, I'm Anas Deyra</Title>
+          <Title className={classes.title}>Hi, I&#39m Anas Deyra</Title>
           <Text weight={"500"} size="xl">
             A full stack <span className={"highlight"}>web developer</span> &
             UI/UX designer that will make your business go to the moon.
@@ -175,7 +175,7 @@ export default function Home() {
               </Group>
             </Link>
             <Link passHref href={"/venix"}>
-              <Image sx={{ cursor: "pointer" }} src="/venix.png" />
+              <Image alt="venix" sx={{ cursor: "pointer" }} src="/venix.png" />
             </Link>
           </Stack>
         </SimpleGrid>
