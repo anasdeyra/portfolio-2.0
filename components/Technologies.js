@@ -83,7 +83,7 @@ const TECHNOLOGIES = [
   {
     name: "Express",
     link: "https://expressjs.com/",
-    usage: "back-end framework",
+    usage: "Back-end framework",
   },
   { name: "Next", link: "https://nextjs.org/", usage: "Full-stack framework" },
   {
