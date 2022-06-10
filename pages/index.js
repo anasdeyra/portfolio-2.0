@@ -1,10 +1,11 @@
-import Work from "../components/Work";
+import Work from "./components/Work";
 
 import { useScrollIntoView } from "@mantine/hooks";
 
-import Features from "../components/features";
-import Hero from "../components/Hero";
-import Technologies from "../components/Technologies";
+import Features from "./components/features";
+import Hero from "./components/Hero";
+import Technologies from "./components/Technologies";
+import { BottomCurves } from "./components/Curves";
 
 export default function Home() {
   const { scrollIntoView, targetRef } = useScrollIntoView();
@@ -13,8 +14,8 @@ export default function Home() {
     <>
       <Hero scrollIntoView={scrollIntoView} />
       <Features />
-      <Technologies />
       <Work targetRef={targetRef} />
+      <Technologies />
     </>
   );
 }

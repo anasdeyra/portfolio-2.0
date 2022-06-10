@@ -1,4 +1,11 @@
-import { Stack, Title, SimpleGrid, Text, createStyles } from "@mantine/core";
+import {
+  Stack,
+  Title,
+  SimpleGrid,
+  Text,
+  createStyles,
+  Grid,
+} from "@mantine/core";
 
 const useStyles = createStyles((t) => ({
   features: {
@@ -15,7 +22,7 @@ export default function Features() {
       <Title mb={"xl"} order={1}>
         Why me ?
       </Title>
-      <SimpleGrid cols={1}>
+      <SimpleGrid cols={3} breakpoints={[{ maxWidth: 900, cols: 1 }]}>
         {FEATURES.map(({ label, text }, i) => (
           <Stack key={i} spacing={0}>
             <Text weight={"600"} size="xl">

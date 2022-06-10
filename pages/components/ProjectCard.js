@@ -7,6 +7,7 @@ import {
   Button,
   Overlay,
 } from "@mantine/core";
+import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -63,9 +64,11 @@ export default function ProjectCard({ image, title, tag }) {
           {title}
         </Title>
       </div>
-      <Button variant="white" color="dark">
-        Details
-      </Button>
+      <Link passHref href={`/projects/${title}`}>
+        <Button component="a" variant="white" color="dark">
+          Details
+        </Button>
+      </Link>
     </Paper>
   );
 }

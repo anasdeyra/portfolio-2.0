@@ -93,7 +93,7 @@ export default function Hero({ scrollIntoView }) {
           onClick={open}
           radius={"xl"}
           size="lg"
-          color="pink"
+          color="dark"
           variant="white"
         >
           Contact
@@ -123,9 +123,9 @@ const SOCIALS = [
     Icon: FaFacebook,
     href: "https://www.facebook.com/anassdeyra/",
   },
+  { Icon: FaInstagram, href: "https://www.instagram.com/anas_deyra/" },
   {
     Icon: FaGithub,
     href: "https://github.com/anasdeyra",
   },
-  { Icon: FaInstagram, href: "https://www.instagram.com/anas_deyra/" },
 ];

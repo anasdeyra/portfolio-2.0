@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { AppShell, MantineProvider } from "@mantine/core";
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
