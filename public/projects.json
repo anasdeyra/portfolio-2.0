@@ -2,17 +2,41 @@
   {
     "name": "venix",
     "description": "",
-    "images": ["/venix.jpeg", ""],
+    "images": ["/venix.jpg", ""],
     "website": "https://venix-nft.vercel.app/",
-    "thumbnail": "/venix.jpeg",
-    "tags": "React, Next"
+    "thumbnail": "/venix.jpg",
+    "tags": "React, Next, thirdweb"
+  },
+  {
+    "name": "Tweeter",
+    "description": "",
+    "images": ["/tweeter.jpg", ""],
+    "website": "https://anasdeyra.herokuapp.com/",
+    "thumbnail": "/tweeter.jpg",
+    "tags": "React"
   },
   {
     "name": "penParty",
     "description": "",
-    "images": ["/penParty.jpeg", ""],
+    "images": ["/penParty.jpg", ""],
     "website": "https://penparty.netlify.app/",
-    "thumbnail": "/penParty.jpeg",
+    "thumbnail": "/penParty.jpg",
+    "tags": "React"
+  },
+  {
+    "name": "Chess js",
+    "description": "",
+    "images": ["/chess.jpg", ""],
+    "website": "https://chess-game-topaz.vercel.app/",
+    "thumbnail": "/chess.jpg",
+    "tags": "React, javascript"
+  },
+  {
+    "name": "Wordle-ar",
+    "description": "",
+    "images": ["/wordle.jpg", ""],
+    "website": "https://wordle-ar.herokuapp.com/",
+    "thumbnail": "/wordle.jpg",
     "tags": "React"
   }
 ]
