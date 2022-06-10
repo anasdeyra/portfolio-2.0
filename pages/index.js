@@ -2,7 +2,7 @@ import Work from "./components/Work";
 
 import { useScrollIntoView } from "@mantine/hooks";
 
-import Features from "./components/features";
+import Features from "./components/Features.js";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import { BottomCurves } from "./components/Curves";
