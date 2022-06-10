@@ -1,6 +1,0 @@
-
-
-
-
-
-NAV_LINKS = ["Home"]

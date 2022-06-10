@@ -1,0 +1,14 @@
+[
+  {
+    "name": "venix",
+    "description": "",
+    "images": ["/venix.png", ""],
+    "website": "https://venix-nft.vercel.app/"
+  },
+  {
+    "name": "penParty",
+    "description": "",
+    "images": ["/penParty.png", ""],
+    "website": "https://penparty.netlify.app/"
+  }
+]

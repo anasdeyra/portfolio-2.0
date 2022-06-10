@@ -1,6 +1,8 @@
 import React from "react";
 import { Group, Header as H, Text, createStyles, Button } from "@mantine/core";
 import Link from "next/link";
+import ContactModal from "./ContactModal";
+import { useDisclosure } from "@mantine/hooks";
 
 const useStyles = createStyles((t) => ({
   header: {
@@ -8,14 +10,17 @@ const useStyles = createStyles((t) => ({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    borderBottom: "none",
   },
   logo: { fontSize: t.fontSizes.xl * 1.2, color: "black" },
 }));
 
 export default function Header() {
   const { classes, theme } = useStyles();
+  const [opened, { open, close }] = useDisclosure();
   return (
     <H height={"60px"} className={classes.header}>
+      <ContactModal opened={opened} close={close} />
       <Link href={"/"} passHref>
         <Text component="a" className={classes.logo} weight={"900"}>
           Deyra
@@ -26,6 +31,7 @@ export default function Header() {
         radius={"xl"}
         variant="gradient"
         gradient={{ from: "#FF416C", to: "#FF4B2B" }}
+        onClick={open}
       >
         Contact
       </Button>
