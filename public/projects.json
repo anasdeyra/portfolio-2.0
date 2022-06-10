@@ -1,6 +1,6 @@
 [
   {
-    "name": "venix",
+    "name": "Venix",
     "description": "",
     "images": ["/venix.jpg", ""],
     "website": "https://venix-nft.vercel.app/",
@@ -16,7 +16,7 @@
     "tags": "React"
   },
   {
-    "name": "penParty",
+    "name": "PenParty",
     "description": "",
     "images": ["/penParty.jpg", ""],
     "website": "https://penparty.netlify.app/",
