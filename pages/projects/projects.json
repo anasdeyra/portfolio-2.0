@@ -2,17 +2,17 @@
   {
     "name": "venix",
     "description": "",
-    "images": ["/venix.png", ""],
+    "images": ["/venix.jpeg", ""],
     "website": "https://venix-nft.vercel.app/",
-    "thumbnail": "/venix.png",
+    "thumbnail": "/venix.jpeg",
     "tags": "React, Next"
   },
   {
     "name": "penParty",
     "description": "",
-    "images": ["/penParty.png", ""],
+    "images": ["/penParty.jpeg", ""],
     "website": "https://penparty.netlify.app/",
-    "thumbnail": "/penParty.png",
+    "thumbnail": "/penParty.jpeg",
     "tags": "React"
   }
 ]

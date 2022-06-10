@@ -40,7 +40,7 @@ export default function Technologies() {
           width={1280 / 2}
           height={720 / 2}
           alt="technologies"
-          src={"/tech.png"}
+          src={"/tech.jpg"}
         />
       </Center>
       <SimpleGrid
