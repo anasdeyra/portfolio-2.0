@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { AppShell, MantineProvider } from "@mantine/core";
 import Header from "../components/Header";
+import { NotificationsProvider } from "@mantine/notifications";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,22 +10,24 @@ function MyApp({ Component, pageProps }) {
       withGlobalStyles
       withNormalizeCSS
     >
-      <AppShell
-        padding={0}
-        styles={{
-          body: {
-            marginTop: "60px",
-            backgroundImage: "url('/bg.svg')",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          },
-        }}
-        fixed
-        header={<Header />}
-      >
-        <Component {...pageProps} />
-      </AppShell>
+      <NotificationsProvider>
+        <AppShell
+          padding={0}
+          styles={{
+            body: {
+              marginTop: "60px",
+              backgroundImage: "url('/bg.svg')",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            },
+          }}
+          fixed
+          header={<Header />}
+        >
+          <Component {...pageProps} />
+        </AppShell>
+      </NotificationsProvider>
     </MantineProvider>
   );
 }
