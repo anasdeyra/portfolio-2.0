@@ -9,7 +9,7 @@
   },
   {
     "name": "Tweeter",
-    "description": "",
+    "description": "Tweeter is a Twitter clone i made with my colleague for an online challenge.",
     "images": ["/tweeter.jpg", ""],
     "website": "https://anasdeyra.herokuapp.com/",
     "thumbnail": "/tweeter.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "name": "PenParty",
-    "description": "",
+    "description": "This was my first personal project where i had the responsability for developing the front end of a cyber security event.",
     "images": ["/penParty.jpg", ""],
     "website": "https://penparty.netlify.app/",
     "thumbnail": "/penParty.jpg",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Chess js",
-    "description": "",
+    "description": "I made this chess game to develop a chess AI in the future.",
     "images": ["/chess.jpg", ""],
     "website": "https://chess-game-topaz.vercel.app/",
     "thumbnail": "/chess.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Wordle-ar",
-    "description": "",
+    "description": "Wordle-ar is na arabic version of the famous game wordle.",
     "images": ["/wordle.jpg", ""],
     "website": "https://wordle-ar.herokuapp.com/",
     "thumbnail": "/wordle.jpg",
