@@ -63,8 +63,8 @@ export default function Hero({ scrollIntoView }) {
       <Stack spacing={"xs"}>
         <Group spacing={4}>
           <Text>Find me here:</Text>
-          {SOCIALS.map(({ Icon, href }, i) => (
-            <Link key={i} href={href} passHref>
+          {SOCIALS.map(({ Icon, href, alt }, i) => (
+            <Link title={alt} key={i} href={href} passHref>
               <ActionIcon
                 p={0}
                 sx={{ color: "white" }}
@@ -117,15 +117,25 @@ export default function Hero({ scrollIntoView }) {
 }
 
 const SOCIALS = [
-  { Icon: Linkedin, href: "https://www.linkedin.com/in/anas-deyra-7015b9240/" },
+  {
+    Icon: Linkedin,
+    href: "https://www.linkedin.com/in/anas-deyra-7015b9240/",
+    alt: "linkedin",
+  },
 
   {
     Icon: FaFacebook,
     href: "https://www.facebook.com/anassdeyra/",
+    alt: "facebook",
   },
-  { Icon: FaInstagram, href: "https://www.instagram.com/anas_deyra/" },
+  {
+    Icon: FaInstagram,
+    href: "https://www.instagram.com/anas_deyra/",
+    alt: "instagram",
+  },
   {
     Icon: FaGithub,
     href: "https://github.com/anasdeyra",
+    alt: "github",
   },
 ];

@@ -60,11 +60,9 @@ export default function ProjectCard({ image, title, tag }) {
         <Text className={classes.tag} size="xs">
           {tag}
         </Text>
-        <Title order={3} className={classes.title}>
-          {title}
-        </Title>
+        <Text className={classes.title}>{title}</Text>
       </div>
-      <Link passHref href={`/projects/${title}`}>
+      <Link passHref href={`/projects/${title.toLowerCase()}`}>
         <Button component="a" variant="white" color="dark">
           Details
         </Button>

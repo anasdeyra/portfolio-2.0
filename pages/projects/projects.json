@@ -1,8 +1,8 @@
 [
   {
     "name": "Venix",
-    "description": "",
-    "images": ["/venix.jpg", ""],
+    "description": "Venix is a personal project I made to learn Next.js and Thirdweb.",
+    "images": ["/venix.jpg", "/venix2.jpg"],
     "website": "https://venix-nft.vercel.app/",
     "thumbnail": "/venix.jpg",
     "tags": "React, Next, thirdweb"

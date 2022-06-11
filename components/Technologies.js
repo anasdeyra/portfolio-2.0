@@ -43,37 +43,29 @@ export default function Technologies() {
           src={"/tech.jpg"}
         />
       </Center>
-      <SimpleGrid
-        cols={2}
-        pt={"xs"}
-        spacing={"sm"}
-        mt={"xl"}
-        breakpoints={[{ maxWidth: 700, cols: 1 }]}
-        className={classes.list}
-      >
+      <List mt={"xl"} spacing="xs" className={classes.list}>
         {TECHNOLOGIES.map(({ name, link, usage }, i) => (
-          <NextLink key={i} href={link} target="_blank">
-            <List.Item
-              icon={
-                <ThemeIcon
-                  radius={"xl"}
-                  gradient={{ from: "#FF416C", to: "#FF4B2B" }}
-                  variant="gradient"
-                >
-                  <ArrowRight size={16} />
-                </ThemeIcon>
-              }
-            >
-              <Group spacing={"xs"}>
-                <Text size="lg">{name}</Text>{" "}
-                <Text weight={"500"} size="sm" color={"dimmed"}>
-                  ({usage})
-                </Text>
-              </Group>
-            </List.Item>
-          </NextLink>
+          <List.Item
+            key={i}
+            icon={
+              <ThemeIcon
+                radius={"xl"}
+                gradient={{ from: "#FF416C", to: "#FF4B2B" }}
+                variant="gradient"
+              >
+                <ArrowRight size={16} />
+              </ThemeIcon>
+            }
+          >
+            <Group spacing={"xs"}>
+              <Text size="lg">{name}</Text>{" "}
+              <Text weight={"500"} size="sm" color={"dimmed"}>
+                ({usage})
+              </Text>
+            </Group>
+          </List.Item>
         ))}
-      </SimpleGrid>
+      </List>
     </Stack>
   );
 }

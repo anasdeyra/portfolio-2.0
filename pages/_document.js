@@ -5,11 +5,12 @@ const getInitialProps = createGetInitialProps();
 
 export default class _Document extends Document {
   static getInitialProps = getInitialProps;
-
+  /* eslint-disable */
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head />
+
         <body>
           <Main />
           <NextScript />
