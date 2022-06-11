@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
           styles={{
             body: {
               marginTop: "60px",
-              backgroundImage: "url('/bg.svg')",
+              backgroundImage: "url('/bg.jpg')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
