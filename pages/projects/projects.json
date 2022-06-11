@@ -33,7 +33,7 @@
   },
   {
     "name": "Wordle-ar",
-    "description": "Wordle-ar is na arabic version of the famous game wordle.",
+    "description": "Wordle-ar is an arabic version of the famous game wordle.",
     "images": ["/wordle.jpg", ""],
     "website": "https://wordle-ar.herokuapp.com/",
     "thumbnail": "/wordle.jpg",
