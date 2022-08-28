@@ -24,6 +24,10 @@ const useStyles = createStyles((t) => ({
     paddingTop: "44px",
     paddingBottom: "44px",
     background: "white",
+    padding: `${72}px 72px`,
+    [t.fn.smallerThan("sm")]: {
+      padding: `${72}px ${t.spacing.md}px`,
+    },
   },
   list: {
     fontWeight: "bold",
@@ -33,7 +37,7 @@ const useStyles = createStyles((t) => ({
 export default function Technologies() {
   const { classes } = useStyles();
   return (
-    <Stack px={"md"} className={classes.container}>
+    <Stack className={classes.container}>
       <Title mb={"xl"}>What i use</Title>
       <Center>
         <Image

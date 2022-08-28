@@ -7,7 +7,10 @@ const useStyles = createStyles((t) => ({
   showcase: {
     position: "relative",
     color: "white",
-    paddingBottom: "44px",
+    padding: `${72}px 72px`,
+    [t.fn.smallerThan("sm")]: {
+      padding: `${72}px ${t.spacing.md}px`,
+    },
   },
 }));
 
@@ -15,7 +18,7 @@ export default function Work({ targetRef }) {
   const { classes } = useStyles();
 
   return (
-    <Stack px={"md"} ref={targetRef} pt={44} className={classes.showcase}>
+    <Stack ref={targetRef} className={classes.showcase}>
       <Title mb={"xl"}>My work </Title>
       <SimpleGrid
         cols={2}

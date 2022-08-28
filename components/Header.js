@@ -6,12 +6,17 @@ import { useDisclosure } from "@mantine/hooks";
 
 const useStyles = createStyles((t) => ({
   header: {
-    padding: `${t.spacing.xs}px ${t.spacing.md}px`,
+    padding: `${t.spacing.xs}px ${72}px`,
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     borderBottom: "none",
+
+    [t.fn.smallerThan("sm")]: {
+      padding: `${t.spacing.xs}px ${t.spacing.md}px`,
+    },
   },
+
   logo: { fontSize: t.fontSizes.xl * 1.2, color: "black" },
 }));
 

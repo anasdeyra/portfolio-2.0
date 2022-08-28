@@ -24,9 +24,16 @@ const useStyles = createStyles((t) => ({
   container: {
     color: "white",
     position: "relative",
+    padding: `${72}px 72px`,
+    [t.fn.smallerThan("sm")]: {
+      padding: `${72}px ${t.spacing.md}px`,
+    },
   },
   title: {
-    fontSize: t.headings.sizes.h1.fontSize * 1.4,
+    fontSize: t.headings.sizes.h1.fontSize * 2,
+    [t.fn.smallerThan("sm")]: {
+      fontSize: t.headings.sizes.h1.fontSize * 1.4,
+    },
   },
   scButton: {
     color: "white",
@@ -44,18 +51,11 @@ export default function Hero({ scrollIntoView }) {
   const { classes } = useStyles();
   const [opened, { open, close }] = useDisclosure();
   return (
-    <Stack
-      px={"md"}
-      spacing={"xl"}
-      mt={80}
-      pb={100}
-      size={"xl"}
-      className={classes.container}
-    >
+    <Stack spacing={"xl"} mt={44} className={classes.container} size={"xl"}>
       <ContactModal opened={opened} close={close} />
       <Stack>
         <Title className={classes.title}>Hi, I&#39;m Anas Deyra</Title>
-        <Text weight={"500"} size="xl">
+        <Text weight={"400"} size="xl">
           A full stack <span className={"highlight"}>web developer</span> &
           UI/UX designer that will make your business go to the moon.
         </Text>

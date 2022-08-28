@@ -12,13 +12,17 @@ const useStyles = createStyles((t) => ({
     color: "black",
     background: "white",
     marginTop: "-1px",
+    padding: `${72}px 72px`,
+    [t.fn.smallerThan("sm")]: {
+      padding: `${72}px ${t.spacing.md}px`,
+    },
   },
 }));
 
 export default function Features() {
   const { classes } = useStyles();
   return (
-    <Stack spacing={"xs"} py={"xl"} px={"md"} className={classes.features}>
+    <Stack spacing={"xs"} className={classes.features}>
       <Title mb={"xl"} order={1}>
         Why me ?
       </Title>
