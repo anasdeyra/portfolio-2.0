@@ -28,7 +28,7 @@ export default function Features() {
       </Title>
       <SimpleGrid cols={3} breakpoints={[{ maxWidth: 900, cols: 1 }]}>
         {FEATURES.map(({ label, text }, i) => (
-          <Stack key={i} spacing={0}>
+          <Stack key={i} spacing={"sm"}>
             <Text weight={"600"} size="xl">
               {label}
             </Text>
