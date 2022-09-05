@@ -10,15 +10,23 @@
   {
     "name": "Tweeter",
     "description": "Tweeter is a Twitter clone i made with my colleague for an online challenge.",
-    "images": ["/tweeter.jpg", ""],
+    "images": ["/tweeter.jpg"],
     "website": "https://anasdeyra.herokuapp.com/",
     "thumbnail": "/tweeter.jpg",
     "tags": "React"
   },
   {
+    "name": "Shortify",
+    "description": "A link shortner.",
+    "images": ["/shortify.png"],
+    "website": "https://shrtify.vercel.app/",
+    "thumbnail": "/shortify.png",
+    "tags": "React, Next, Tailwind CSS, Typescript"
+  },
+  {
     "name": "PenParty",
     "description": "This was my first personal project where i had the responsability for developing the front end of a cyber security event.",
-    "images": ["/penParty.jpg", ""],
+    "images": ["/penParty.jpg"],
     "website": "https://penparty.netlify.app/",
     "thumbnail": "/penParty.jpg",
     "tags": "React"
@@ -26,7 +34,7 @@
   {
     "name": "Chess js",
     "description": "I made this chess game to develop a chess AI in the future.",
-    "images": ["/chess.jpg", ""],
+    "images": ["/chess.jpg"],
     "website": "https://chess-game-topaz.vercel.app/",
     "thumbnail": "/chess.jpg",
     "tags": "React, javascript"
@@ -34,7 +42,7 @@
   {
     "name": "Wordle-ar",
     "description": "Wordle-ar is an arabic version of the famous game wordle.",
-    "images": ["/wordle.jpg", ""],
+    "images": ["/wordle.jpg"],
     "website": "https://wordle-ar.herokuapp.com/",
     "thumbnail": "/wordle.jpg",
     "tags": "React"
