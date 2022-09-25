@@ -11,7 +11,7 @@
     "name": "Tweeter",
     "description": "Tweeter is a Twitter clone i made with my colleague for an online challenge.",
     "images": ["/tweeter.jpg"],
-    "website": "https://anasdeyra.herokuapp.com/",
+    "website": "https://tweeter-sand.vercel.app/",
     "thumbnail": "/tweeter.jpg",
     "tags": "React"
   },
