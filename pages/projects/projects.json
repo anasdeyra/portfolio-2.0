@@ -16,6 +16,14 @@
     "tags": "React"
   },
   {
+    "name": "Todododo",
+    "description": "A todo PWA made to demonstrate Redux and tailwindCSS skills.",
+    "images": ["/todo.jpg"],
+    "website": "https://todo-anasdeyra.vercel.app/",
+    "thumbnail": "/todo.jpg",
+    "tags": "React, Tailwind CSS, Typescript, Redux"
+  },
+  {
     "name": "Shortify",
     "description": "A link shortner.",
     "images": ["/shortify.png"],
